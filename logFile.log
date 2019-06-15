@@ -207,3 +207,4 @@
 2019-06-15 12:57:17,965 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-3] parsed string-->"sunset":"06:51 PM"
 2019-06-15 12:57:17,966 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-3] parsed string-->"moonrise":"05:05 PM"
 2019-06-15 12:57:17,966 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-3] parsed string-->"moonset":"03:56 AM"}}]}}
+2019-06-15 12:57:21,283 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-3] <<OUT VALUE BEFORE ECHO BACK>>   Temperature forcasted to be normal. Good to Plan for Travel..!
