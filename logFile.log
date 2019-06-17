@@ -351,3 +351,23 @@
 2019-06-17 13:06:01,888 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
 2019-06-17 13:06:02,374 INFO com.sapient.newsapi.sapientNewsApi.SapientNewsApiApplication [main] Started SapientNewsApiApplication in 2.62 seconds (JVM running for 4.351)
 2019-06-17 13:06:08,108 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-17 15:14:45,917 INFO com.sapient.newsapi.sapientNewsApi.SapientNewsApiApplicationTests [main] Starting SapientNewsApiApplicationTests on md1up8cc with PID 144632 (started by z0041tdk in C:\Users\Z0041TDK\IdeaProjects\weathercheckAPI)
+2019-06-17 15:14:45,918 DEBUG com.sapient.newsapi.sapientNewsApi.SapientNewsApiApplicationTests [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-17 15:14:45,920 INFO com.sapient.newsapi.sapientNewsApi.SapientNewsApiApplicationTests [main] No active profile set, falling back to default profiles: default
+2019-06-17 15:14:48,316 INFO com.sapient.newsapi.sapientNewsApi.SapientNewsApiApplicationTests [main] Started SapientNewsApiApplicationTests in 2.815 seconds (JVM running for 4.386)
+2019-06-17 15:14:49,707 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [main] <<OUT VALUE BEFORE ECHO BACK>>   Controller working fine
+2019-06-17 15:14:49,895 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [main] parsed string-->"day":{"maxtemp_c":46.3
+2019-06-17 15:14:49,895 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [main] working fine..!
+2019-06-17 15:14:49,896 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [main] printed JSON response bocdy-->"day":{"maxtemp_c":46.3
+2019-06-17 15:14:49,899 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [main] parsed string-->"day":{"maxtemp_c":null
+2019-06-17 15:14:49,916 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [main] parsed string-->"day":{"maxtemp_c":36.3
+2019-06-17 15:16:12,239 INFO com.sapient.newsapi.sapientNewsApi.SapientNewsApiApplicationTests [main] Starting SapientNewsApiApplicationTests on md1up8cc with PID 253584 (started by z0041tdk in C:\Users\Z0041TDK\IdeaProjects\weathercheckAPI)
+2019-06-17 15:16:12,240 DEBUG com.sapient.newsapi.sapientNewsApi.SapientNewsApiApplicationTests [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-17 15:16:12,242 INFO com.sapient.newsapi.sapientNewsApi.SapientNewsApiApplicationTests [main] No active profile set, falling back to default profiles: default
+2019-06-17 15:16:14,619 INFO com.sapient.newsapi.sapientNewsApi.SapientNewsApiApplicationTests [main] Started SapientNewsApiApplicationTests in 2.761 seconds (JVM running for 4.263)
+2019-06-17 15:16:16,126 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [main] <<OUT VALUE BEFORE ECHO BACK>>   Controller working fine
+2019-06-17 15:16:16,428 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [main] parsed string-->"day":{"maxtemp_c":46.3
+2019-06-17 15:16:16,429 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [main] working fine..!
+2019-06-17 15:16:16,429 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [main] printed JSON response bocdy-->"day":{"maxtemp_c":46.3
+2019-06-17 15:16:16,432 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [main] parsed string-->"day":{"maxtemp_c":null
+2019-06-17 15:16:16,433 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [main] parsed string-->"day":{"maxtemp_c":36.3

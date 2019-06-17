@@ -69,7 +69,7 @@ public class NewsApiServiceImpl implements NewsApiService{
                 throw new IntegerPraserException("Parser Exception. Taken care, try after sometime..!");
             }
         } catch (Exception ex) {
-            throw new ValueNotFoundException("not found proper value.! Try again later..");
+            throw new IntegerPraserException("not found proper value.! Try again later..");
         }
 	}
 	
