@@ -208,3 +208,13 @@
 2019-06-15 12:57:17,966 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-3] parsed string-->"moonrise":"05:05 PM"
 2019-06-15 12:57:17,966 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-3] parsed string-->"moonset":"03:56 AM"}}]}}
 2019-06-15 12:57:21,283 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-3] <<OUT VALUE BEFORE ECHO BACK>>   Temperature forcasted to be normal. Good to Plan for Travel..!
+2019-06-17 11:59:07,903 INFO com.sapient.newsapi.sapientNewsApi.SapientNewsApiApplicationTests [main] Starting SapientNewsApiApplicationTests on md1up8cc with PID 243192 (started by z0041tdk in C:\Users\Z0041TDK\IdeaProjects\weathercheckAPI)
+2019-06-17 11:59:07,904 DEBUG com.sapient.newsapi.sapientNewsApi.SapientNewsApiApplicationTests [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-17 11:59:07,905 INFO com.sapient.newsapi.sapientNewsApi.SapientNewsApiApplicationTests [main] No active profile set, falling back to default profiles: default
+2019-06-17 11:59:10,151 INFO com.sapient.newsapi.sapientNewsApi.SapientNewsApiApplicationTests [main] Started SapientNewsApiApplicationTests in 2.642 seconds (JVM running for 4.153)
+2019-06-17 11:59:11,588 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [main] <<OUT VALUE BEFORE ECHO BACK>>   Controller working fine
+2019-06-17 11:59:11,815 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [main] parsed string-->"day":{"maxtemp_c":46.3
+2019-06-17 11:59:11,816 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [main] working fine..!
+2019-06-17 11:59:11,816 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [main] printed JSON response bocdy-->"day":{"maxtemp_c":46.3
+2019-06-17 11:59:11,818 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [main] parsed string-->"day":{"maxtemp_c":null
+2019-06-17 11:59:11,820 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [main] parsed string-->"day":{"maxtemp_c":36.3
