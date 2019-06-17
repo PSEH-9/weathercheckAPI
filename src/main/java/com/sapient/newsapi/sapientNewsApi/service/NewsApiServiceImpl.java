@@ -30,46 +30,47 @@ public class NewsApiServiceImpl implements NewsApiService{
 		
 		if(queryValue.isEmpty()||queryValue.equals(null))
 			throw new ValueNotFoundException("Query Value cannot be null..!,Enter Proper City/Country Name.");
-		
-		String uri = "http://api.apixu.com/v1/forecast.json/";
-		
-		HttpHeaders headers = new HttpHeaders();
-		
 
-		UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(uri)
-		        .queryParam("key", "d41eb19c8e944d8ca5054053191506")
-		        .queryParam("q", queryValue);
-		
-		HttpEntity<?> entity = new HttpEntity<>(headers);
-		System.out.println("final url-->"+ builder.toUriString());
-		HttpEntity<String> response = restTemplate.exchange(
-		        builder.toUriString(), 
-		        HttpMethod.GET, 
-		        entity, 
-		        String.class);
-		String val = response.getBody();
-		String[] arrOfStr = val.split(","); 
-		String temperature = null;
-		for (String temp : arrOfStr) {
-			logger.debug("parsed string-->"+temp);
-			if(temp.contains("maxtemp_c")) {
-				temperature = temp.substring(19, 21);
-				System.out.println(temperature);
-			}
-		}
-		try {
-		if(Integer.parseInt(temperature)>40)
-		{
-			logger.debug("working fine..!");
-			logger.debug("printed JSON response bocdy-->"+response.getBody());
-			return "Temperature is high. Take Umberella or use sun lotion..!" ; }
-		
-		else
-			return "Temperature forcasted to be normal. Good to Plan for Travel..!";
-		}
-		catch (Exception ex) {
-			throw new IntegerPraserException("Parser Exception. Taken care, try after sometime..!");
-		}
+        try {
+            String uri = "http://api.apixu.com/v1/forecast.json/";
+
+            HttpHeaders headers = new HttpHeaders();
+
+
+            UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(uri)
+                    .queryParam("key", "d41eb19c8e944d8ca5054053191506")
+                    .queryParam("q", queryValue);
+
+            HttpEntity<?> entity = new HttpEntity<>(headers);
+            System.out.println("final url-->" + builder.toUriString());
+            HttpEntity<String> response = restTemplate.exchange(
+                    builder.toUriString(),
+                    HttpMethod.GET,
+                    entity,
+                    String.class);
+            String val = response.getBody();
+            String[] arrOfStr = val.split(",");
+            String temperature = null;
+            for (String temp : arrOfStr) {
+                logger.debug("parsed string-->" + temp);
+                if (temp.contains("maxtemp_c")) {
+                    temperature = temp.substring(19, 21);
+                    System.out.println(temperature);
+                }
+            }
+            try {
+                if (Integer.parseInt(temperature) > 40) {
+                    logger.debug("working fine..!");
+                    logger.debug("printed JSON response bocdy-->" + response.getBody());
+                    return "Temperature is high. Take Umberella or use sun lotion..!";
+                } else
+                    return "Temperature forcasted to be normal. Good to Plan for Travel..!";
+            } catch (Exception ex) {
+                throw new IntegerPraserException("Parser Exception. Taken care, try after sometime..!");
+            }
+        } catch (Exception ex) {
+            throw new ValueNotFoundException("not found proper value.! Try again later..");
+        }
 	}
 	
 	@Bean

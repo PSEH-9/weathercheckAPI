@@ -218,3 +218,136 @@
 2019-06-17 11:59:11,816 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [main] printed JSON response bocdy-->"day":{"maxtemp_c":46.3
 2019-06-17 11:59:11,818 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [main] parsed string-->"day":{"maxtemp_c":null
 2019-06-17 11:59:11,820 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [main] parsed string-->"day":{"maxtemp_c":36.3
+2019-06-17 13:00:35,277 INFO com.sapient.newsapi.sapientNewsApi.SapientNewsApiApplication [main] Starting SapientNewsApiApplication on md1up8cc with PID 239236 (C:\Users\Z0041TDK\IdeaProjects\weathercheckAPI\target\classes started by z0041tdk in C:\Users\Z0041TDK\IdeaProjects\weathercheckAPI)
+2019-06-17 13:00:35,280 DEBUG com.sapient.newsapi.sapientNewsApi.SapientNewsApiApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-17 13:00:35,281 INFO com.sapient.newsapi.sapientNewsApi.SapientNewsApiApplication [main] No active profile set, falling back to default profiles: default
+2019-06-17 13:00:36,518 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2019-06-17 13:00:36,519 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-17 13:00:36,970 INFO org.apache.jasper.servlet.TldScanner [main] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-17 13:00:36,975 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2019-06-17 13:00:37,467 INFO com.sapient.newsapi.sapientNewsApi.SapientNewsApiApplication [main] Started SapientNewsApiApplication in 2.691 seconds (JVM running for 4.443)
+2019-06-17 13:00:59,448 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-17 13:02:51,517 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->{"location":{"name":"London"
+2019-06-17 13:02:51,517 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"region":"City of London
+2019-06-17 13:02:51,518 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string--> Greater London"
+2019-06-17 13:02:51,518 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"country":"United Kingdom"
+2019-06-17 13:02:51,518 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"lat":51.52
+2019-06-17 13:02:51,518 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"lon":-0.11
+2019-06-17 13:02:51,518 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"tz_id":"Europe/London"
+2019-06-17 13:02:51,518 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"localtime_epoch":1560756771
+2019-06-17 13:02:51,518 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"localtime":"2019-06-17 8:32"}
+2019-06-17 13:02:51,518 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"current":{"last_updated_epoch":1560756611
+2019-06-17 13:02:51,518 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"last_updated":"2019-06-17 08:30"
+2019-06-17 13:02:51,518 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"temp_c":17.0
+2019-06-17 13:02:51,518 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"temp_f":62.6
+2019-06-17 13:02:51,518 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"is_day":1
+2019-06-17 13:02:51,518 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"condition":{"text":"Overcast"
+2019-06-17 13:02:51,518 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"icon":"//cdn.apixu.com/weather/64x64/day/122.png"
+2019-06-17 13:02:51,518 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"code":1009}
+2019-06-17 13:02:51,518 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"wind_mph":9.4
+2019-06-17 13:02:51,519 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"wind_kph":15.1
+2019-06-17 13:02:51,519 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"wind_degree":210
+2019-06-17 13:02:51,519 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"wind_dir":"SSW"
+2019-06-17 13:02:51,519 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"pressure_mb":1019.0
+2019-06-17 13:02:51,519 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"pressure_in":30.6
+2019-06-17 13:02:51,519 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"precip_mm":0.0
+2019-06-17 13:02:51,519 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"precip_in":0.0
+2019-06-17 13:02:51,519 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"humidity":68
+2019-06-17 13:02:51,519 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"cloud":100
+2019-06-17 13:02:51,519 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"feelslike_c":17.0
+2019-06-17 13:02:51,519 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"feelslike_f":62.6
+2019-06-17 13:02:51,519 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"vis_km":10.0
+2019-06-17 13:02:51,519 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"vis_miles":6.0
+2019-06-17 13:02:51,519 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"uv":4.0
+2019-06-17 13:02:51,520 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"gust_mph":13.4
+2019-06-17 13:02:51,520 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"gust_kph":21.6}
+2019-06-17 13:02:51,520 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"forecast":{"forecastday":[{"date":"2019-06-17"
+2019-06-17 13:02:51,520 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"date_epoch":1560729600
+2019-06-17 13:02:51,520 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"day":{"maxtemp_c":18.2
+2019-06-17 13:02:51,520 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"maxtemp_f":64.8
+2019-06-17 13:02:51,520 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"mintemp_c":13.4
+2019-06-17 13:02:51,520 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"mintemp_f":56.1
+2019-06-17 13:02:51,520 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"avgtemp_c":15.8
+2019-06-17 13:02:51,520 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"avgtemp_f":60.4
+2019-06-17 13:02:51,520 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"maxwind_mph":10.7
+2019-06-17 13:02:51,520 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"maxwind_kph":17.3
+2019-06-17 13:02:51,520 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"totalprecip_mm":0.0
+2019-06-17 13:02:51,520 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"totalprecip_in":0.0
+2019-06-17 13:02:51,520 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"avgvis_km":17.6
+2019-06-17 13:02:51,520 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"avgvis_miles":10.0
+2019-06-17 13:02:51,521 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"avghumidity":66.0
+2019-06-17 13:02:51,521 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"condition":{"text":"Cloudy"
+2019-06-17 13:02:51,521 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"icon":"//cdn.apixu.com/weather/64x64/day/119.png"
+2019-06-17 13:02:51,521 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"code":1006}
+2019-06-17 13:02:51,521 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"uv":4.8}
+2019-06-17 13:02:51,521 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"astro":{"sunrise":"04:42 AM"
+2019-06-17 13:02:51,521 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"sunset":"09:21 PM"
+2019-06-17 13:02:51,521 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"moonrise":"09:31 PM"
+2019-06-17 13:02:51,521 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] parsed string-->"moonset":"04:54 AM"}}]}}
+2019-06-17 13:02:51,521 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-9] <<OUT VALUE BEFORE ECHO BACK>>   Temperature forcasted to be normal. Good to Plan for Travel..!
+2019-06-17 13:02:59,682 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->{"location":{"name":"Chennai"
+2019-06-17 13:02:59,682 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"region":"Tamil Nadu"
+2019-06-17 13:02:59,682 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"country":"India"
+2019-06-17 13:02:59,682 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"lat":13.08
+2019-06-17 13:02:59,683 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"lon":80.28
+2019-06-17 13:02:59,683 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"tz_id":"Asia/Kolkata"
+2019-06-17 13:02:59,683 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"localtime_epoch":1560756779
+2019-06-17 13:02:59,683 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"localtime":"2019-06-17 13:02"}
+2019-06-17 13:02:59,683 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"current":{"last_updated_epoch":1560756610
+2019-06-17 13:02:59,683 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"last_updated":"2019-06-17 13:00"
+2019-06-17 13:02:59,683 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"temp_c":40.0
+2019-06-17 13:02:59,683 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"temp_f":104.0
+2019-06-17 13:02:59,683 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"is_day":1
+2019-06-17 13:02:59,683 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"condition":{"text":"Partly cloudy"
+2019-06-17 13:02:59,683 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"icon":"//cdn.apixu.com/weather/64x64/day/116.png"
+2019-06-17 13:02:59,683 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"code":1003}
+2019-06-17 13:02:59,683 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"wind_mph":10.5
+2019-06-17 13:02:59,683 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"wind_kph":16.9
+2019-06-17 13:02:59,683 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"wind_degree":300
+2019-06-17 13:02:59,683 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"wind_dir":"WNW"
+2019-06-17 13:02:59,683 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"pressure_mb":1006.0
+2019-06-17 13:02:59,684 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"pressure_in":30.2
+2019-06-17 13:02:59,684 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"precip_mm":0.0
+2019-06-17 13:02:59,684 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"precip_in":0.0
+2019-06-17 13:02:59,684 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"humidity":30
+2019-06-17 13:02:59,684 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"cloud":50
+2019-06-17 13:02:59,684 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"feelslike_c":43.9
+2019-06-17 13:02:59,684 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"feelslike_f":111.1
+2019-06-17 13:02:59,684 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"vis_km":7.0
+2019-06-17 13:02:59,684 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"vis_miles":4.0
+2019-06-17 13:02:59,684 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"uv":10.0
+2019-06-17 13:02:59,684 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"gust_mph":15.0
+2019-06-17 13:02:59,684 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"gust_kph":24.1}
+2019-06-17 13:02:59,684 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"forecast":{"forecastday":[{"date":"2019-06-17"
+2019-06-17 13:02:59,684 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"date_epoch":1560729600
+2019-06-17 13:02:59,684 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"day":{"maxtemp_c":36.0
+2019-06-17 13:02:59,684 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"maxtemp_f":96.8
+2019-06-17 13:02:59,684 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"mintemp_c":29.8
+2019-06-17 13:02:59,685 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"mintemp_f":85.6
+2019-06-17 13:02:59,685 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"avgtemp_c":32.3
+2019-06-17 13:02:59,685 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"avgtemp_f":90.1
+2019-06-17 13:02:59,685 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"maxwind_mph":16.1
+2019-06-17 13:02:59,685 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"maxwind_kph":25.9
+2019-06-17 13:02:59,685 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"totalprecip_mm":0.0
+2019-06-17 13:02:59,685 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"totalprecip_in":0.0
+2019-06-17 13:02:59,685 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"avgvis_km":18.5
+2019-06-17 13:02:59,685 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"avgvis_miles":11.0
+2019-06-17 13:02:59,685 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"avghumidity":59.0
+2019-06-17 13:02:59,685 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"condition":{"text":"Partly cloudy"
+2019-06-17 13:02:59,685 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"icon":"//cdn.apixu.com/weather/64x64/day/116.png"
+2019-06-17 13:02:59,685 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"code":1003}
+2019-06-17 13:02:59,685 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"uv":10.3}
+2019-06-17 13:02:59,685 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"astro":{"sunrise":"05:43 AM"
+2019-06-17 13:02:59,685 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"sunset":"06:36 PM"
+2019-06-17 13:02:59,685 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"moonrise":"06:42 PM"
+2019-06-17 13:02:59,686 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] parsed string-->"moonset":"05:31 AM"}}]}}
+2019-06-17 13:02:59,686 DEBUG com.sapient.newsapi.sapientNewsApi.controller.NewsApiController [http-nio-8080-exec-10] <<OUT VALUE BEFORE ECHO BACK>>   Temperature forcasted to be normal. Good to Plan for Travel..!
+2019-06-17 13:06:00,253 INFO com.sapient.newsapi.sapientNewsApi.SapientNewsApiApplication [main] Starting SapientNewsApiApplication on md1up8cc with PID 245468 (C:\Users\Z0041TDK\IdeaProjects\weathercheckAPI\target\classes started by z0041tdk in C:\Users\Z0041TDK\IdeaProjects\weathercheckAPI)
+2019-06-17 13:06:00,256 DEBUG com.sapient.newsapi.sapientNewsApi.SapientNewsApiApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-17 13:06:00,257 INFO com.sapient.newsapi.sapientNewsApi.SapientNewsApiApplication [main] No active profile set, falling back to default profiles: default
+2019-06-17 13:06:01,483 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2019-06-17 13:06:01,483 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-17 13:06:01,884 INFO org.apache.jasper.servlet.TldScanner [main] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-17 13:06:01,888 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2019-06-17 13:06:02,374 INFO com.sapient.newsapi.sapientNewsApi.SapientNewsApiApplication [main] Started SapientNewsApiApplication in 2.62 seconds (JVM running for 4.351)
+2019-06-17 13:06:08,108 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
